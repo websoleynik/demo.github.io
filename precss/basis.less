@@ -1,0 +1,22 @@
+body{
+    counter-reset: knows;
+
+
+}
+
+
+.wrapper{
+    max-width:@width_wrap;
+    margin:0 auto;
+
+}
+header,.contentForm,.trainingDetails,.ContenerTeacher,.MotivationConteiner,.KnowsConteiner,.question_answerConteiner,.socialContainer,footer{
+    max-width:@width_lndg; 
+    margin:0 auto;
+}
+.clearfix{
+    &:after{
+        content:"";
+        display:block;
+        clear:both;
+    }}
